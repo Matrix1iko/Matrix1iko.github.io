@@ -15,6 +15,5 @@ var swiper = new Swiper(".mySwiper", {
 
 var swiper = new Swiper(".swiper-news", {
     slidesPerView: 3,
-    spaceBetween: 30,
     loop: true,
 });
