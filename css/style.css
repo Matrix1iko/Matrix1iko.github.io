@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+a{
+    text-decoration: none;
+    color: #000;
+}
 .KA_nav{
     display: flex;
     flex-direction: row;
@@ -27,6 +31,8 @@
     font-weight: bold;
     font-size: 14px;
     width: 24.7%;
+    text-decoration: none;
+    color: #000;
 }
 .KA_nav_button{
     display: flex;
@@ -41,6 +47,9 @@
     font-weight: bold;
     font-size: 14px;
     color: #ffffff;
+}
+.KA_nav_button a{
+    color: #fff;
 }
 .KA_about{
     height: 770px;
@@ -388,8 +397,10 @@
 }
 .swiper-slide-teacher img {
     display: block;
-    width: 100%;
+    width: 98%;
     height: 74.06%;
+    border-style: solid;
+    border-color: #bb195a;
 }
 .swiper-slide-text{
     height: 25.94%;
@@ -604,6 +615,65 @@
 .footer_social_box{
     margin-left: 28px;
 }
+.About_teacher_box{
+    width: 100%;
+}
+.About_teacher{
+    width: 100%;
+    background: url(/img/TeacherBG.svg);
+    background-size: cover;
+    background-position-y: 0%;
+    background-repeat: no-repeat;
+    background-position-y: -73px;
+    height: auto;
+}
+.About_teacher_box{
+    padding-top: 22px;
+    width: 97%;
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.about_teacher_text{
+    color: #333;
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17.073px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-top: 2.5%;
+}
+.About_img_Teacher_Text{
+    margin: 0 auto;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    width: 40%;
+    border-radius: 20px;
+}
+.About_img_Teacher_button{
+    background-color:#10375c;
+    height: 34px;
+    margin-top: -4px;
+    color: #333;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teacher_ab_img{
+    width: 100% !important;
+}
+.teacher_img_box{
+    height: auto;
+    border-radius: 15%;
+    width: 24.62%;
+    overflow: hidden;
+    margin: 0 auto;
+    border: solid;
+    border-color: #b21d5a;
+}
 @media (max-width: 1921px) {
     .box{
         width: 79.1%;
@@ -629,6 +699,65 @@
     .news-box{
         width: 450.56px;
         padding-left: 30.2px
+    }
+}
+@media (max-width: 1249px) {
+    .teacher_img_box {
+        width: 30.62%;
+    }
+    .About_img_Teacher_Text {
+        width: 50%;
+    }
+}
+@media (max-width: 791px) {
+    .teacher_img_box {
+        width: 36.62%;
+    }
+    .about_teacher_text {
+        font-size: 17.073px;
+        width: 94%;
+    }
+}
+@media (max-width: 685px) {
+    .about_teacher_text {
+        font-size: 16.073px;
+        width: 94%;
+    }
+    .teacher_img_box {
+        width: 50.62%;
+    }
+    .About_teacher {
+        background-position-y: -154px;
+    }
+}
+@media (max-width: 501px) {
+    .About_img_Teacher_Text {   
+        font-size: 14px;
+    }
+}
+@media (max-width: 449px) {
+    .About_img_Teacher_Text {
+        width: 45%;
+        font-size: 14px;
+    }
+    .About_img_Teacher_button {
+        height: 25px;
+        font-size: 13px;
+    }
+    .about_teacher_text {
+        font-size: 15.073px;
+    }
+    .About_img_Teacher_Text {   
+        font-size: 12px;
+        width: 60%;
+    }
+    .teacher_img_box {
+        width: 70.62%;
+    }
+}
+@media (max-width: 300) {
+    .about_teacher_text {
+        font-size: 13.073px;
     }
 }
 @media (max-width: 1601px) {
@@ -693,7 +822,76 @@
         font-size: 15px;
     }
 }
+@media (max-width: 1186px) {
+    .box {
+        width: 92.1%;
+        margin-left: 3.4%;
+        margin-right: 3.4%;
+    }
+    .courseButtontext {
+        font-size: 18px;
+    }
+    .students_subheader {
+        font-size: 16px;
+    }
+    .students_header {
+        font-size: 60px;
+    }
+    .news-box {
+        width: 360.56px;
+    }
+    .news-info-text {
+        line-height: 22px;
+    }
+}
+@media (max-width: 1025px) {
+    .KA_nav_navigation {
+        width: 28.7%;
+    }
+    .aboutText {
+        font-size: 18px;
+    }
+    .aboutTitle {
+        padding-top: 50px;
+    }
+    .CourseText {
+        margin-top: 50px;
+    }
+    .aboutCourseTitle {
+        font-size: 21px;
+    }
+    .Student_block {
+        width: 70%;
+    }
+    .Grand {
+        margin-left: 10.45%;
+        margin-right: 10.45%;
+    }
+    .news-box {
+        width: 300px;
+    }
+    .news-info-header {
+        font-size: 23.145px;
+    }
+    .news-info-text {
+        margin-top: 15px;
+        margin-left: 3px;
+        font-size: 13.073px;
+    }
+    .news-info-img img {
+        width: 146px;
+        height: 173px;
+        margin-top: 17px;
+    }
+    .news-info-button {
+        width: 144.36px;
+        height: 44.97px;
+    }
+}
 @media (max-width: 961px) {
+    .students_header {
+        font-size: 50px;
+    }
     .KA_nav_button {
         width: 10.1%;
         height: 31px;
@@ -971,7 +1169,7 @@
     .news-info-img img {
         width: 136px;
         height: 192px;
-        margin-top: -12px;
+        margin-top: 0px;
     }
     .news-info-button {
         width: 130.36px;
@@ -1016,7 +1214,7 @@
         margin-right: 3px;
     }
 }
-@media (max-width: 413px) {
+@media (max-width: 452px) {
     .name{
         display: none;
     }
@@ -1261,7 +1459,7 @@
         margin-top: 15px;
     }
 }
-@media (max-width: 361px) {
+@media (max-width: 373px) {
     .KA_nav_navigation {
         font-size: 10px;
         width: 61.7%;
@@ -1324,5 +1522,28 @@
     }
     .footer {
         height: 80px;
+    }
+}
+@media (max-width: 353px) {
+    .aboutCourseTitle {
+        font-size: 11px;
+    }
+    .aboutText {
+        width: 61.45%;
+        font-size: 11px;
+    }
+    .aboutSubTitle { 
+        font-size: 14px;
+    }
+    .aboutTitle {
+        font-size: 19px;
+    }
+    .map_header {
+        font-size: 11px;
+    }
+}
+@media (max-width: 333px) {
+    .news-box {
+        width: 97px;
     }
 }
